@@ -61,6 +61,12 @@ cd Fundamentals-of-Biometric-Systems-Design-Final-Project
 
 ### 2. Activate Virtual Environment
 
+```bash
+python -m venv venv
+```
+
+### 3. Activate Virtual Environment
+
 **Windows:**
 
 ```bash
@@ -73,7 +79,12 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 3. Run the Project
+### 4. Install Dependencies
+```bash
+pip install pandas numpy pyagrum
+```
+
+### 5. Run the Project
 
 **Windows:**
 
