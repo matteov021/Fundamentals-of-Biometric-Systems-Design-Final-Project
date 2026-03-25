@@ -44,6 +44,11 @@ Contains ~370 records including:
 **Option A – Clone (recommended):**
 ```bash
 git clone https://github.com/matteov021/Fundamentals-of-Biometric-Systems-Design-Final-Project.git
+```
+
+then
+
+```bash
 cd Fundamentals-of-Biometric-Systems-Design-Final-Project
 ```
 
