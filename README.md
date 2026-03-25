@@ -59,7 +59,7 @@ cd Fundamentals-of-Biometric-Systems-Design-Final-Project
 * Extract the folder
 * Open a terminal inside the project directory
 
-### 2. Activate Virtual Environment
+### 2. Create Virtual Environment
 
 ```bash
 python -m venv venv
