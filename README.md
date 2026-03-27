@@ -76,7 +76,7 @@ cd Fundamentals-of-Biometric-Systems-Design-Final-Project
 
 * Download and install [Python](https://www.python.org/downloads/)
 * Download and install [GraphViz](https://graphviz.org/download/)
-* Ensure **"Add to Path** is checked for both installations
+* Ensure **"Add to Path"** is checked for both installations
 
 #### Create Virtual Enviroment
 
@@ -112,3 +112,4 @@ pip install pandas numpy pyagrum jupyter matplotlib
 
 * Click the `.ipynb` file directly
 * Click **Run All**
+* That’s it. Everything should work
