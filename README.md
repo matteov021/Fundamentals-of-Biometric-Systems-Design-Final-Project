@@ -65,7 +65,7 @@ cd Fundamentals-of-Biometric-Systems-Design-Final-Project
 * On the **left sidebar**, click the folder icon
 * Click **Upload**
 * Upload: `Sleep_Health_Lifestyle.csv`
-* The file will appear in the Colab file system (same directory as the notebook runtime)
+* The file will appear in the Colab file system
 
 #### Run the Notebook
 
@@ -73,7 +73,8 @@ cd Fundamentals-of-Biometric-Systems-Design-Final-Project
 * That’s it. Everything should work
 
 ### 3. Method B - VS Code (Not Recommended)
-
+ 
+* This method requires more setup and is more error-prone, especially for visualization.
 * Download and install [Python](https://www.python.org/downloads/)
 * Download and install [GraphViz](https://graphviz.org/download/)
 * Ensure **"Add to Path"** is checked for both installations
