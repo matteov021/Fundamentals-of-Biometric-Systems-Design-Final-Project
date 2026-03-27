@@ -10,7 +10,7 @@
 
 This project builds a **Bayesian Network (BN)** using PyAgrum to analyze how lifestyle factors affect stress levels.  
 
-Using the **Sleep, Health, and Lifestyle** dataset, we model probabilistic relationships between occupation, demographic factors, stress, and health outcomes such as heart rate and sleep quality.  
+Using the **Sleep, Health, and Lifestyle** dataset, we model probabilistic relationships between occupation, demographic factors, stress, and health outcomes such as heart rate and sleep quality among many others.
 
 The goal is to use probabilistic reasoning to understand how different conditions influence stress and its effects.
 
@@ -41,14 +41,9 @@ Contains ~370 records including:
 
 ### 1. Download or Clone Repository
 
-**Option A – Clone (recommended):**
+**Option A – Clone (Recommended):**
 ```bash
 git clone https://github.com/matteov021/Fundamentals-of-Biometric-Systems-Design-Final-Project.git
-```
-
-then
-
-```bash
 cd Fundamentals-of-Biometric-Systems-Design-Final-Project
 ```
 
@@ -59,41 +54,22 @@ cd Fundamentals-of-Biometric-Systems-Design-Final-Project
 * Extract the folder
 * Open a terminal inside the project directory
 
-### 2. Create Virtual Environment
+### 2. Method A - Google Colab (Recommended)
 
-```bash
-python -m venv venv
-```
+* Go to [Google Colab](https://colab.research.google.com/)
+* Click **“Upload Notebook”**
+* Upload the `.ipynb` file from this project
 
-### 3. Activate Virtual Environment
+#### Upload the Dataset
 
-**Windows:**
+* On the **left sidebar**, click the folder icon
+* Click **Upload**
+* Upload: `Sleep_Health_Lifestyle.csv`
+* The file will appear in the Colab file system (same directory as the notebook runtime)
 
-```bash
-venv\Scripts\activate
-```
+#### Run the Notebook
 
-**Mac/Linux:**
+* Click **Run All** near the top toolbar
+* That’s it. Everything should work out of the box!
 
-```bash
-source venv/bin/activate
-```
-
-### 4. Install Dependencies
-```bash
-pip install pandas numpy pyagrum
-```
-
-### 5. Run the Project
-
-**Windows:**
-
-```bash
-python StressBayesianNetwork.py
-```
-
-**Mac/Linux:**
-
-```bash
-python3 StressBayesianNetwork.py
-```
+### 3. Method B - VS Code (Not Reccomended)
