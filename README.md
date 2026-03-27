@@ -69,7 +69,46 @@ cd Fundamentals-of-Biometric-Systems-Design-Final-Project
 
 #### Run the Notebook
 
-* Click **Run All** near the top toolbar
-* That’s it. Everything should work out of the box!
+* Click **Run All** 
+* That’s it. Everything should work
 
 ### 3. Method B - VS Code (Not Reccomended)
+
+* Download and install [Python](https://www.python.org/downloads/)
+* Download and install [GraphViz](https://graphviz.org/download/)
+* Ensure **"Add to Path** is checked for both installations
+
+#### Create Virtual Enviroment
+
+```bash
+python -m venv venv
+```
+
+#### Activate Virtual Enviroment
+
+**Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+**Mac/Linux:**
+
+```bash
+source venv/bin/activate
+```
+
+#### Install Dependencies
+```bash
+pip install pandas numpy pyagrum jupyter matplotlib
+```
+
+#### Install VS Code Extensions
+
+* Python (by Microsoft)
+* Jupyter (by Microsoft)
+
+#### Run the Notebook
+
+* Click the `.ipynb` file directly
+* Click **Run All**
