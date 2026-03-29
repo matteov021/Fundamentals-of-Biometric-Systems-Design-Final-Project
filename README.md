@@ -75,6 +75,7 @@ cd Fundamentals-of-Biometric-Systems-Design-Final-Project
 ### 3. Method B - VS Code (Not Recommended)
  
 * This method requires more setup and is more error-prone, especially for visualization.
+* Download and install [VS Code](https://code.visualstudio.com/download)
 * Download and install [Python](https://www.python.org/downloads/)
 * Download and install [GraphViz](https://graphviz.org/download/)
 * Ensure **"Add to Path"** is checked for both installations
