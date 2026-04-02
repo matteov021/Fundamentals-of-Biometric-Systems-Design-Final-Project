@@ -80,13 +80,13 @@ cd Fundamentals-of-Biometric-Systems-Design-Final-Project
 * Download and install [GraphViz](https://graphviz.org/download/)
 * Ensure **"Add to Path"** is checked for both installations
 
-#### Create Virtual Enviroment
+#### Create Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-#### Activate Virtual Enviroment
+#### Activate Virtual Environment
 
 **Windows:**
 
@@ -112,6 +112,7 @@ pip install pandas numpy pyagrum jupyter matplotlib
 
 #### Run the Notebook
 
+* Change the CSV load to `df = pd.read_csv('Sleep_Health_Lifestyle.csv')` or create the `content` folder
 * Click the `.ipynb` file directly
 * Click **Run All**
 * That’s it. Everything should work
